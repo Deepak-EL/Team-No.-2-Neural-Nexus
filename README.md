@@ -18,6 +18,17 @@ All six share the same data split, point-centred crops, augmentation, model-sele
 
 ---
 
+## What this repository contains
+
+| Item | Where |
+|---|---|
+| **Source code** | [`src/`](src) (model definitions, inference, command-line prediction), [`analysis/`](analysis) (statistics and figures), [`notebooks/coral_reef_final_pipeline.ipynb`](notebooks/coral_reef_final_pipeline.ipynb) (full training and evaluation pipeline) |
+| **Dataset information** | [`data/README.md`](data/README.md): source, download steps, 40 → 3 label mapping and the train/val/test split. The images themselves (≈ 18 GB) are downloaded from Kaggle. |
+| **Setup and execution instructions** | [Setup](#setup) and [How to run](#how-to-run) below |
+| **Results** | [`results/`](results): tables (CSV + PNG), figures, training logs and `results_master.json`. Trained weights for all six models are in [`models/`](models). |
+
+---
+
 ## Key results
 
 **Protocol A: point-crop test set** (6,000 expert points, natural class distribution; 95 % bootstrap CIs)
@@ -186,17 +197,6 @@ python analysis/make_paper_figures.py     # → paper/figures/
 ## Paper
 
 `paper/Coral_Reef_CNN_vs_ViT_Comparative_Study.docx`: *Self-supervised vision transformer versus transfer-learned and from-scratch CNNs for coral reef health classification and cover mapping: a controlled comparative study.*
-
-## Citation
-
-```bibtex
-@misc{coralreef_cnn_vs_vit_2026,
-  title  = {Self-supervised vision transformer versus transfer-learned and from-scratch CNNs for coral reef health classification and cover mapping},
-  author = {Girish Shiva R and Deepak E L and others},
-  year   = {2026},
-  howpublished = {\url{https://github.com/Deepak-EL/Team-No.-2-Neural-Nexus}}
-}
-```
 
 ## Acknowledgements
 
