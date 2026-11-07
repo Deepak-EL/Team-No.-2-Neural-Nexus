@@ -26,6 +26,7 @@ All six share the same data split, point-centred crops, augmentation, model-sele
 | **Dataset information** | [`data/README.md`](data/README.md): source, download steps, 40 → 3 label mapping and the train/val/test split. The images themselves (≈ 18 GB) are downloaded from Kaggle. |
 | **Setup and execution instructions** | [Setup](#setup) and [How to run](#how-to-run) below |
 | **Results** | [`results/`](results): tables (CSV + PNG), figures, training logs and `results_master.json`. Trained weights for all six models are in [`models/`](models). |
+| **Project report** | [`paper/Coral_Reef_Health_Prediction_Using_DL.pdf`](paper/Coral_Reef_Health_Prediction_Using_DL.pdf) |
 
 ---
 
@@ -89,7 +90,7 @@ All six share the same data split, point-centred crops, augmentation, model-sele
 │   ├── figures/                  # EDA, training, results, sliding window, Grad-CAM, XAI (PNG, 200 dpi)
 │   └── logs/                     # per-epoch training histories, imbalance ablation
 ├── paper/
-│   ├── Coral_Reef_CNN_vs_ViT_Comparative_Study.docx
+│   ├── Coral_Reef_Health_Prediction_Using_DL.pdf   # final project report
 │   └── figures/
 ├── requirements.txt
 └── LICENSE
@@ -194,13 +195,17 @@ python analysis/make_paper_figures.py     # → paper/figures/
 
 ---
 
-## Paper
+## Project report
 
-`paper/Coral_Reef_CNN_vs_ViT_Comparative_Study.docx`: *Self-supervised vision transformer versus transfer-learned and from-scratch CNNs for coral reef health classification and cover mapping: a controlled comparative study.*
+[`paper/Coral_Reef_Health_Prediction_Using_DL.pdf`](paper/Coral_Reef_Health_Prediction_Using_DL.pdf): *Coral Reef Health Prediction Using Deep Learning*, the final project report (22AIE304 Deep Learning, October 2026).
+
+## Team
+
+Team No. 2 – Neural Nexus: A Susindhar, E L Deepak, Kaarthikeyan A R and Sasi Visvan C, under the guidance of Dr. M. Pallavi.
 
 ## Acknowledgements
 
-Course project for 22AIE442, Amrita Vishwa Vidyapeetham, Chennai. Imagery and annotations come from the Moorea Coral Reef LTER programme and the CoralNet community, via the Kaggle `jxwleong/coral-reef-dataset`. DINOv2 is by Meta AI; the ImageNet backbones are from torchvision.
+Course project for 22AIE304 Deep Learning, Amrita School of Computing, Amrita Vishwa Vidyapeetham, Chennai. Imagery and annotations come from the Moorea Coral Reef LTER programme and the CoralNet community, via the Kaggle `jxwleong/coral-reef-dataset`. DINOv2 is by Meta AI; the ImageNet backbones are from torchvision.
 
 ## License
 
