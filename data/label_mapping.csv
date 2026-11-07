@@ -1,0 +1,41 @@
+raw_label,health_class
+porites,Healthy Coral
+pocillopora,Healthy Coral
+montipora,Healthy Coral
+pavona,Healthy Coral
+acropora,Healthy Coral
+millepora,Healthy Coral
+montastraea,Healthy Coral
+leptastrea,Healthy Coral
+goniastrea,Healthy Coral
+fungia,Healthy Coral
+astreopora,Healthy Coral
+gardineroseris,Healthy Coral
+herpolitha,Healthy Coral
+lobophyllia,Healthy Coral
+favia,Healthy Coral
+soft_coral,Healthy Coral
+soft,Healthy Coral
+platygyra,Healthy Coral
+echinopora,Healthy Coral
+cyphastrea,Healthy Coral
+acanthastrea,Healthy Coral
+psammocora,Healthy Coral
+stylophora,Healthy Coral
+favites,Healthy Coral
+leptoseris,Healthy Coral
+sandolitha,Healthy Coral
+tuba,Healthy Coral
+dead_coral,Dead / Degraded
+broken_coral_rubble,Dead / Degraded
+turf,Dead / Degraded
+macroalgae,Dead / Degraded
+algae,Dead / Degraded
+green_fleshy_algae,Dead / Degraded
+crustose_coralline_algae,Substrate / CCA
+hard_substrate,Substrate / CCA
+rock,Substrate / CCA
+sand,Substrate / CCA
+off,Ignore
+bad,Ignore
+dark,Ignore

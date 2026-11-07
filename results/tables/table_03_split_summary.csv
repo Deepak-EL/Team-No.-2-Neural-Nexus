@@ -1,0 +1,4 @@
+Split,Quadrat images,All valid points,Crops used,Healthy,Dead/Degraded,Substrate/CCA,Distribution
+Train,1718,285305,24000,8000,8000,8000,balanced
+Val,368,59434,5000,885,913,3202,natural
+Test,369,59516,6000,928,1031,4041,natural

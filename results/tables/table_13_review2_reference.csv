@@ -1,0 +1,7 @@
+Review-2 model,Unit / test set,Acc %,F1 weighted,F1 macro
+MobileNetV2,whole image (369),81.0,0.821,0.709
+ResNet18,whole image (369),82.4,0.835,0.732
+EfficientNet-B0,whole image (369),82.1,0.827,0.704
+ShuffleNetV2,whole image (369),84.3,0.852,0.763
+CoralCNN + SE,whole image (361),65.7,0.687,0.524
+DINOv2 ViT-S/14 (frozen),point crop (4000),77.7,0.851,

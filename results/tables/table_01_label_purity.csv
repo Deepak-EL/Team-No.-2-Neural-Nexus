@@ -1,0 +1,8 @@
+Statistic,Value
+Quadrat images (annotated),"2,455"
+Mean points / image,164.7
+Images containing ANY live coral,88.1%
+…but majority-labelled Healthy Coral,17.1%
+Images with all 3 classes,68.1%
+Images with purity < 0.5,9.1%
+Images with purity ≥ 0.9,24.8%

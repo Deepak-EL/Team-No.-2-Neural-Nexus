@@ -1,0 +1,15 @@
+# core
+torch>=2.1
+torchvision>=0.16
+timm>=0.9            # DINOv2 fallback when torch.hub is unavailable
+numpy
+pandas
+scipy
+scikit-learn
+opencv-python-headless
+pillow
+matplotlib
+seaborn
+tqdm
+# data download (notebook)
+kagglehub

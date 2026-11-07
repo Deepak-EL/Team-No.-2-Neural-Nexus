@@ -1,0 +1,4 @@
+Model,Family,Explained layer,Centre-mass (r≤56px),Uniform baseline,Pointing hit % (r≤32px),Random-peak hit %,Deletion drop (top-20% CAM),Deletion drop (random 20%),Faithfulness ratio
+ResNet18,Transfer learning,last conv map (7×7),0.54956216,0.1962093431122449,91.33333333333333,6.395487882653061,0.23983145,0.03844098,6.2387905
+CoralCNN-SE,CNN from scratch,stage4 (7×7),0.27243283,0.1962093431122449,22.666666666666664,6.395487882653061,0.16894604,0.0819671,2.0611196
+DINOv2-ViT-S/14,Vision Transformer,last block patch tokens (16×16),0.21825567,0.1962093431122449,10.666666666666668,6.395487882653061,0.12939572,0.022173364,5.835375

@@ -1,0 +1,4 @@
+Class,R,G,B,brightness,contrast,saturation,sharpness,blue_green
+Healthy Coral,127.1,119.18,112.13,120.75,55.86,62.31,965.11,0.94
+Dead / Degraded,125.02,121.0,115.69,121.6,56.4,64.91,1659.76,0.96
+Substrate / CCA,138.34,135.93,131.39,136.13,54.9,55.89,1503.12,0.97
