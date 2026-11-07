@@ -91,6 +91,7 @@ All six share the same data split, point-centred crops, augmentation, model-sele
 │   └── logs/                     # per-epoch training histories, imbalance ablation
 ├── paper/
 │   ├── Coral_Reef_Health_Prediction_Using_DL.pdf   # final project report
+│   ├── integrity_checks/         # plagiarism + AI-detection reports for the project report
 │   └── figures/
 ├── requirements.txt
 └── LICENSE
@@ -198,6 +199,13 @@ python analysis/make_paper_figures.py     # → paper/figures/
 ## Project report
 
 [`paper/Coral_Reef_Health_Prediction_Using_DL.pdf`](paper/Coral_Reef_Health_Prediction_Using_DL.pdf): *Coral Reef Health Prediction Using Deep Learning*, the final project report (22AIE304 Deep Learning, October 2026).
+
+Originality checks on the report (scanned 7 November 2026), in [`paper/integrity_checks/`](paper/integrity_checks):
+
+| Check | Result | File |
+|---|---|---|
+| Plagiarism scan | 4.3 % similar text (2.4 % identical, 0.7 % minor changes, 1.2 % paraphrased) | [`Plagiarism_Report.pdf`](paper/integrity_checks/Plagiarism_Report.pdf) |
+| AI-text detection (SciSpace) | 14 % AI weightage, rated "Essentially Human" | [`AI_Detection_Report_SciSpace.pdf`](paper/integrity_checks/AI_Detection_Report_SciSpace.pdf) |
 
 ## Team
 
